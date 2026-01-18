@@ -1,1 +1,210 @@
+# OOE – Standard Prompt Methodology (Gate-Based Execution)
 
+**Document ID:** OOE-PROMPT-METHODOLOGY  
+**Version:** v1.1  
+**Status:** ACTIVE  
+**Owner:** One O Eight Consulting (OOE)  
+**Applies To:** All OOE AI Prompts (Phase 0 and beyond)
+
+---
+
+## 1. Core Methodological Principles
+
+All prompts executed under the OOE framework must follow a methodology that is:
+
+- Strictly sequential
+- Gate-based
+- Evidence-driven
+- Fully traceable, auditable, and repeatable
+
+Speed shall never take precedence over regulatory accuracy, evidence validation, or risk transparency.
+
+---
+
+## 2. Prompt Development by Stages
+
+### 2.1 Stage-Based Structure
+
+Each prompt **must be developed and executed by STAGES**.
+
+- Each Stage corresponds to one or more Gates
+- Stages are logical, bounded, and explicitly defined
+- Stages **cannot be merged, skipped, or resolved implicitly**
+
+---
+
+### 2.2 Mandatory Sequential Execution
+
+Stages and Gates **must be executed strictly in order**.
+
+- Advancement is prohibited without:
+  - Full evaluation, or
+  - Explicit user authorization
+- Sequential execution ensures:
+  - QA integrity
+  - Risk containment
+  - Full auditability
+
+---
+
+## 3. Controlled Pauses for Information Requests
+
+### 3.1 Mandatory Stop Conditions
+
+The model **must pause execution** whenever:
+
+- Required evidence is missing
+- Evidence is not independently verifiable
+- Regulatory conflicts cannot be resolved
+
+---
+
+### 3.2 Evidence Request Rules (Mandatory)
+
+Whenever the model pauses to request information, it **must explicitly specify**:
+
+1. The affected Gate and item
+2. The exact evidence required
+3. Evidence requirements **must always include**:
+   - A live link (functional URL)
+   - Full web address (www…)
+   - Bookmark or reproducible navigation path within the official source
+
+Generic or ambiguous requests are not permitted.
+
+---
+
+## 4. Item-Level Evaluation
+
+Each Gate contains predefined checklist items.
+
+- Every item must be evaluated individually
+- No item may be omitted
+- No inference or implicit resolution is allowed
+
+---
+
+## 5. Normative Requirement vs Evidence Logic
+
+For each item, the model must:
+
+1. Identify the applicable regulatory requirement
+2. Identify available evidence
+3. Directly compare requirement vs evidence
+4. Assign status **only based on verifiable evidence**
+
+---
+
+## 6. Evidence Classification
+
+Evidence is classified as:
+
+- **Official / Independent Evidence**
+- **User-Provided Evidence**
+
+User-provided evidence **does not constitute independent verification**.
+
+---
+
+## 7. Standardized Item Statuses
+
+Each item must have **one and only one** status:
+
+- `CLOSED – VERIFIED`
+- `CLOSED – USER-PROVIDED`
+- `OPEN – NEED EVIDENCE`
+- `HOLD – BLOCKING ISSUE`
+
+---
+
+## 8. Assumption Control
+
+- Assumptions are not permitted
+- If unavoidable, they must be:
+  - Explicitly disclosed
+  - Logged as `CONDITIONAL – ASSUMPTION DISCLOSED`
+- Assumptions **never justify a CLOSED status**
+
+---
+
+## 9. Conflict Identification
+
+Any conflict between regulations, sources, or interpretations must be:
+
+- Explicitly documented
+- Maintained as `OPEN` or `HOLD` depending on severity
+
+---
+
+## 10. Conditional Advancement Authorized by User
+
+The user may authorize advancement to the next Gate.
+
+- The Gate is marked as `CONDITIONAL – USER AUTHORIZED`
+- All item statuses remain unchanged
+- Associated risks must be documented
+
+---
+
+## 11. Mandatory Final Evidence Reporting
+
+### 11.1 Universal Evidence Reporting Rule
+
+At the end of execution, **all items must report evidence**, regardless of status.
+
+This includes items marked as:
+- CLOSED
+- OPEN
+- HOLD
+
+---
+
+### 11.2 Evidence Requirements per Item
+
+Each item must independently list:
+
+- Live link
+- Full web address (www…)
+- Bookmark or reproducible navigation path
+
+Cross-referencing evidence implicitly is not allowed.
+
+---
+
+## 12. Final Chat Delivery Structure (Mandatory)
+
+The final delivery in the chat **must be organized by status**, using at minimum the following sections:
+
+### 12.1 CLOSED – VERIFIED
+- Item list
+- Full independent evidence per item
+
+### 12.2 CLOSED – USER-PROVIDED
+- Item list
+- User-provided evidence clearly identified
+
+### 12.3 OPEN – NEED EVIDENCE
+- Item list
+- Explicit evidence request per item
+- Suggested official sources where applicable
+
+### 12.4 HOLD – BLOCKING ISSUE
+- Item list
+- Description of blocking condition
+- Associated evidence
+
+---
+
+## 13. Methodological Priority Rule
+
+The process must remain fully repeatable and auditable.
+
+When a conflict arises between:
+- Speed, and
+- Regulatory accuracy
+
+**Regulatory accuracy and risk transparency always prevail.**
+
+---
+
+**End of Document**
